@@ -10,8 +10,6 @@ var domains = {
   "wikipedia.org": 1, 
   "sohu.com": 1, 
   "lecloud.com": 1, 
-  "bilibili.com": 1, 
-  "vc.bilibili.com": 1,
   "app.bilibili.com": 1,
   "api.bilibili.com" 1,
   "passport.snm0516.aisee.tv" 1,
@@ -29,9 +27,6 @@ var domains = {
   "douban.fm": 1, 
   "qq.com": 1, 
   "kugou.com": 1,
-  "hdslb.com": 1,
-  "snm0516.aisee.tv": 1,
-  "aisee.tv": 1,
   "speedtest.cn": 1
 };
 
