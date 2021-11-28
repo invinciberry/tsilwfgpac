@@ -23,6 +23,7 @@ var domains = {
   "douban.fm": 1, 
   "qq.com": 1, 
   "kugou.com": 1,
+  "hdslb.com": 1,
   "speedtest.cn": 1
 };
 
