@@ -20,7 +20,6 @@ var domains = {
   "hcdnv.bili.gslb.c.cdnhwc2.com": 1,
   "upos-sz-mirrorkodo.bilivideo.com.w.cdngslb.com": 1,
   "i0.hdslb.com.w.kunlunno.com": 1,
-  "hcdnv.bili.gslb.c.cdnhwc2.com": 1,  
   "baidu.com": 1,
   "iqiyi.com": 1, 
   "tianyancha.com": 1, 
