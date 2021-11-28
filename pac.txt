@@ -1,0 +1,49 @@
+var domains = {
+	"api.bilibili.com" : 1,
+	"douban.fm" : 1,
+	"iqiyi.com" : 1,
+	"kugou.com" : 1,
+	"kuwo.cn" : 1,
+	"le.com" : 1,
+	"lecloud.com" : 1,
+	"letv.cn" : 1,
+	"letv.com" : 1,
+	"music.126.net" : 1,
+	"ip.ws.126.net" : 1,
+	"music.httpdns.c.163.com" : 1,
+	"ipservice.163.com" : 1,
+	"music.163.com" : 1,
+	"hot.vrs.sohu.com" : 1,
+	"3g.music.qq.com" : 1,
+	"mqqplayer.3g.qq.com" : 1,
+	"proxy.music.qq.com" : 1,
+	"proxymc.qq.com" : 1,
+	"y.qq.com" : 1,
+	"youku.com" : 1,
+	"tudou.com" : 1,
+	"tianyancha.com" : 1
+
+};
+
+
+var proxy = "__PROXY__";
+var direct = 'DIRECT;';
+var hasOwnProperty = Object.hasOwnProperty;
+
+function FindProxyForURL(url, host) {
+
+	var suffix;
+	var pos = host.lastIndexOf('.');
+	pos = host.lastIndexOf('.', pos - 1);
+
+	while(1) {
+		if (pos <= 0) {
+			if (hasOwnProperty.call(domains, host)) return proxy;
+			else return direct;
+		}
+
+	suffix = host.substring(pos + 1);
+	if (hasOwnProperty.call(domains, suffix))return proxy;
+	pos = host.lastIndexOf('.', pos - 1);
+	}
+}
