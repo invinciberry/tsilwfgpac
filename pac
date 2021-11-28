@@ -19,6 +19,7 @@ var domains = {
   "vc.bilibili.com": 1,
   "snm0516.aisee.tv": 1,
   "aisee.tv": 1,
+  "bilivideo.com": 1,
   "baidu.com": 1,
   "iqiyi.com": 1, 
   "tianyancha.com": 1, 
