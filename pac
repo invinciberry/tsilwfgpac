@@ -11,6 +11,7 @@ var domains = {
   "sohu.com": 1, 
   "lecloud.com": 1, 
   "bilibili.com": 1, 
+  "vc.bilibili.com": 1,
   "biliapi.net": 1,
   "baidu.com": 1,
   "iqiyi.com": 1, 
