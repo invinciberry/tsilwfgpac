@@ -22,7 +22,8 @@ var domains = {
   "126.net": 1, 
   "douban.fm": 1, 
   "qq.com": 1, 
-  "kugou.com": 1, 
+  "kugou.com": 1,
+  "speedtest.cn": 1
 };
 
 var direct = 'DIRECT;';
