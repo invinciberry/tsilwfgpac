@@ -7,7 +7,6 @@ var domains = {
   "le.com": 1, 
   "tudou.com": 1, 
   "kuwo.cn": 1, 
-  "wikipedia.org": 1, 
   "sohu.com": 1, 
   "lecloud.com": 1, 
   "bilibili.com": 1, 
